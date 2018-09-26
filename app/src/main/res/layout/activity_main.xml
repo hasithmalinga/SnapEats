@@ -9,14 +9,26 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/btnCapture"/>
+        android:layout_height="387dp"
+        android:layout_above="@id/btnCapture"
+        android:layout_marginBottom="2dp" />
 
     <Button
         android:id="@+id/btnCapture"
-        android:text="CAPTURE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="165dp"
+        android:text="CAPTURE" />
+
+    <TextView
+        android:id="@+id/responseText"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:text="" />
 
 </RelativeLayout>
